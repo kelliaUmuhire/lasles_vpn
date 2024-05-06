@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Rubik", sans-serif;
+      }
+    </style>
+    <script>
+      function toggleMenu() {
+        document.getElementById("menuLinks").classList.toggle("hidden");
+        document.getElementById("menuLinks").classList.toggle("flex");
+        document.getElementById("menuAuth").classList.toggle("hidden");
+        document.getElementById("menuAuth").classList.toggle("flex");
+      }
+    </script>
+    <title>LaslesVPN</title>
+  </head>
+  <body class="relative overflow-x-hidden">
+    <nav
+      class="px-10 md:px-28 flex md:flex-nowrap flex-wrap justify-between items-center md:text-sm text-base md:pt-14 pt-8 w-full z-10 bg-white"
+    >
+      <img src="/images/logo.svg" alt="Logo" class="w-40" />
+      <div
+        class="font-bold text-red-500 text-lg md:hidden"
+        onclick="toggleMenu()"
+      >
+        Menu
+      </div>
+      <div
+        class="md:flex hidden md:flex-row flex-col md:space-x-8 text-gray-600 md:w-auto w-full md:mt-0 mt-6"
+        id="menuLinks"
+      >
+        <a href="">About</a>
+        <a href="">Features</a>
+        <a href="">Pricing</a>
+        <a href="">Testimonials</a>
+        <a href="">Help</a>
+      </div>
+      <div
+        class="md:flex hidden items-center font-medium space-x-6"
+        id="menuAuth"
+      >
+        <a href="" class="">Sign In</a>
+        <a
+          href=""
+          class="text-red-500 border border-red-500 px-3 py-2 rounded-full"
+          >Sign Up</a
+        >
+      </div>
+    </nav>
+    <section class="md:px-28 px-10 mt-24">
+      <div class="flex md:flex-row flex-col gap-14 items-center">
+        <div class="md:w-1/2 w-full">
+          <h1 class="text-[2.8rem] font-medium leading-snug">
+            Want anything to be easy with <b>LaslesVPN.</b>
+          </h1>
+          <p class="text-base text-gray-600 mb-10 mt-8 leading-relaxed">
+            Provide a network for all your needs with ease and fun using
+            <span class="font-medium">LaslesVPN</span> discover interesting
+            features from us.
+          </p>
+          <button class="font-medium px-14 py-4 text-center red-btn rounded-lg">
+            Get Started
+          </button>
+        </div>
+        <img src="/images/illustration1.svg" class="md:w-[50%] w-full h-auto" />
+      </div>
+    </section>
+    <section
+      class="md:mx-28 mx-10 my-24 shadow-2xl rounded-lg shadow-gray-100 flex py-6 items-center"
+    >
+      <div
+        class="w-1/3 border-r-[1.5px] border-r-gray-200 flex md:flex-row flex-col md:items-start items-center justify-center py-3"
+      >
+        <div
+          class="p-3.5 bg-red-100 rounded-full flex justify-center items-center"
+        >
+          <img src="/images/user.svg" class="w-5" />
+        </div>
+        <div class="md:ml-7 md:mt-0 mt-3">
+          <div class="font-bold text-xl md:text-start text-center">90+</div>
+          <div class="text-gray-600 text-lg">Users</div>
+        </div>
+      </div>
+      <div
+        class="w-1/3 border-r-[1.5px] border-r-gray-200 flex md:flex-row flex-col md:items-start items-center justify-center py-2"
+      >
+        <div
+          class="p-3.5 bg-red-100 rounded-full flex justify-center items-center"
+        >
+          <img src="/images/location.svg" class="w-4 h-4" />
+        </div>
+        <div class="md:ml-7 md:mt-0 mt-3">
+          <div class="font-bold text-xl md:text-start text-center">30+</div>
+          <div class="text-gray-600 text-lg">Locations</div>
+        </div>
+      </div>
+      <div
+        class="w-1/3 flex md:flex-row flex-col md:items-start items-center justify-center py-2"
+      >
+        <div
+          class="p-3.5 bg-red-100 rounded-full flex justify-center items-center"
+        >
+          <img src="/images/server.svg" class="w-5" />
+        </div>
+        <div class="md:ml-7 md:mt-0 mt-3">
+          <div class="font-bold text-xl md:text-start text-center">50+</div>
+          <div class="text-gray-600 text-lg">Servers</div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="md:px-28 px-10 mb-20 mt-20 flex md:flex-nowrap flex-wrap justify-between"
+    >
+      <img
+        src="/images/illustration2.svg"
+        alt="Person"
+        class="md:w-[45%] w-full"
+      />
+      <div class="md:w-[40%] w-full md:mt-0 mt-10">
+        <h1 class="text-3xl font-medium leading-normal">
+          We Provide Many Features You Can Use
+        </h1>
+        <p class="text-base text-gray-600 my-6 leading-relaxed">
+          You can explore the features that we provide with fun and have their
+          own functions each feature.
+        </p>
+        <div>
+          <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+            <img src="/images/tick.svg" alt="tick" class="w-5 h-5" />
+            <div>Powerfull online protection.</div>
+          </div>
+          <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+            <img src="/images/tick.svg" alt="tick" class="w-5 h-5" />
+            <div>Internet without borders.</div>
+          </div>
+          <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+            <img src="/images/tick.svg" alt="tick" class="w-5 h-5" />
+            <div>Supercharged VPN.</div>
+          </div>
+          <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+            <img src="/images/tick.svg" alt="tick" class="w-5 h-5" />
+            <div>No specific time limits.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="md:px-28 px-10 flex items-center flex-col bg-gray-50 py-20">
+      <h1 class="text-3xl font-medium leading-normal">Choose Your Plan</h1>
+      <p
+        class="text-base text-gray-600 mt-6 md:w-[55%] text-center leading-relaxed"
+      >
+        Let's choose the package that is best for you and explore it happily and
+        cheerfully.
+      </p>
+      <div class="flex md:flex-nowrap flex-wrap gap-10 w-full mt-16">
+        <div
+          class="border-2 border-gray-300 hover:border-red-500 rounded-lg bg-white flex flex-col items-center justify-between py-16 px-16 md:w-1/3 w-full"
+        >
+          <div class="flex flex-col items-center">
+            <img
+              src="/images/illustration3.svg"
+              alt="Offer"
+              class="w-[8rem] h-auto"
+            />
+            <div class="font-medium mt-6 mb-4">Free Plan</div>
+            <div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>Unlimited Bandwitch</div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>Encrypted Connection</div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>No Traffic Logs</div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>Works on All Devices</div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full mt-8">
+            <div class="font-medium text-xl text-center">Free</div>
+            <button class="select-btn">Select</button>
+          </div>
+        </div>
+        <div
+          class="border-2 border-gray-300 hover:border-red-500 rounded-lg bg-white flex flex-col items-center justify-between py-16 px-16 md:w-1/3 w-full"
+        >
+          <div class="flex flex-col items-center">
+            <img
+              src="/images/illustration3.svg"
+              alt="Offer"
+              class="w-[8rem] h-auto"
+            />
+            <div class="font-medium mt-6 mb-4">Standard Plan</div>
+            <div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>Unlimited Bandwitch</div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>Encrypted Connection</div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>No Traffic Logs</div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>Works on All Devices</div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>Connect Anywhere</div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full mt-8">
+            <div class="font-medium text-xl text-center">
+              $9 <span class="text-gray-600 font-normal">/ mo</span>
+            </div>
+            <button class="select-btn">Select</button>
+          </div>
+        </div>
+        <div
+          class="border-2 border-gray-300 hover:border-red-500 rounded-lg bg-white flex flex-col items-center justify-between py-16 px-16 md:w-1/3 w-full"
+        >
+          <div class="flex flex-col items-center">
+            <img
+              src="/images/illustration3.svg"
+              alt="Offer"
+              class="w-[8rem] h-auto"
+            />
+            <div class="font-medium mt-6 mb-4">Premium Plan</div>
+            <div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>Unlimited Bandwitch</div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>Encrypted Connection</div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>No Traffic Logs</div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>Works on All Devices</div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>Connect Anywhere</div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600 my-4 text-sm">
+                <img src="/images/tick2.svg" alt="tick" class="w-3 h-3 mr-2" />
+                <div>Get New Features</div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full mt-8">
+            <div class="font-medium text-xl text-center">
+              $12 <span class="text-gray-600 font-normal">/ mo</span>
+            </div>
+            <button class="select-btn">Select</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="md:px-28 px-10 flex items-center flex-col bg-gray-50 py-10">
+      <h1 class="text-3xl font-medium leading-normal">
+        Huge Global Network of Fast VPN
+      </h1>
+      <p
+        class="text-base text-gray-600 mt-6 md:w-[55%] text-center leading-relaxed"
+      >
+        See <span class="font-medium">LaslesVPN</span> everywhere to make it
+        easier for you when you move locations.
+      </p>
+      <img src="/images/global.svg" class="md:w-[90%] w-full my-20" />
+      <div class="flex md:flex-nowrap flex-wrap justify-between gap-10">
+        <img src="/images/netflix.svg" class="md:w-40 w-20" />
+        <img src="/images/reddit.svg" class="md:w-40 w-20" />
+        <img src="/images/amazon.svg" class="md:w-40 w-20" />
+        <img src="/images/discord.svg" class="md:w-40 w-20" />
+        <img src="/images/spotify.svg" class="md:w-40 w-20" />
+      </div>
+    </section>
+    <section
+      class="md:px-28 px-10 flex items-center flex-col pb-56 pt-16 bg-gray-50"
+    >
+      <h1 class="text-3xl font-medium leading-normal">
+        Trusted by Thousands of Happy Customer
+      </h1>
+      <p
+        class="text-base text-gray-600 mt-6 md:w-[55%] text-center leading-relaxed"
+      >
+        These are the stories of our customers who have joined us with great
+        pleasure when using this crazy feature.
+      </p>
+      <div class="flex flex-wrap mt-16 gap-10">
+        <div
+          class="md:w-[35%] w-full border-2 border-gray-300 hover:border-red-500 p-7 rounded-lg"
+        >
+          <div class="flex items-start">
+            <div class="bg-black p-5 rounded-full mr-3"></div>
+            <div>
+              <div class="text-sm font-medium">Viezh Robert</div>
+              <div class="text-sm text-gray-500">Shanxi, China</div>
+            </div>
+          </div>
+          <p class="text-sm mt-4">
+            "Wow... I am very happy to use this VPN, it turned out to be more
+            than my expectations and so far there have been no problems.
+            LaslesVPN always the best".
+          </p>
+        </div>
+        <div
+          class="md:w-[35%] w-full border-2 border-gray-300 hover:border-red-500 p-7 rounded-lg"
+        >
+          <div class="flex items-start">
+            <div class="bg-black p-5 rounded-full mr-3"></div>
+            <div>
+              <div class="text-sm font-medium">Viezh Robert</div>
+              <div class="text-sm text-gray-500">Shanxi, China</div>
+            </div>
+          </div>
+          <p class="text-sm mt-4">
+            "Wow... I am very happy to use this VPN, it turned out to be more
+            than my expectations and so far there have been no problems.
+            LaslesVPN always the best".
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="bg-gray-100 pb-20 pt-48 md:px-28 px-10 flex md:flex-nowrap flex-wrap text-sm justify-between text-gray-600 relative w-full"
+    >
+      <section
+        class="bg-white shadow-2xl rounded-lg shadow-gray-100 flex md:flex-row flex-col justify-between py-12 items-center absolute md:top-[-6rem] top-[-11rem] w-[83vw] px-14"
+      >
+        <div>
+          <h1 class="text-3xl font-medium text-black">
+            Subscribe Now
+            <span class="md:block inline">Get Special Features!</span>
+          </h1>
+          <p class="text-base text-gray-600 mt-3 text-center leading-relaxed">
+            Let's subscribe with us and find the fun.
+          </p>
+        </div>
+        <button
+          class="font-medium px-14 py-4 text-center red-btn rounded-lg md:mt-0 mt-3"
+        >
+          Subscribe Now
+        </button>
+      </section>
+      <div class="md:w-[30%] w-full">
+        <img src="/images/logo.svg" class="w-auto" />
+        <div class="mt-6">
+          <span class="font-medium">LaslesVPN</span> is a private virtual
+          network that has unique features and has high security.
+        </div>
+        <div class="flex gap-5 my-8">
+          <img class="w-8 h-8" src="/images/facebook.svg" />
+          <img class="w-8 h-8" src="/images/twitter.svg" />
+          <img class="w-8 h-8" src="/images/instagram.svg" />
+        </div>
+        <div class="text-gray-400">
+          @2024Lasles<span class="font-medium">VPN</span>
+        </div>
+      </div>
+      <div class="md:w-[50%] w-full flex gap-10 justify-between">
+        <div class="flex flex-col gap-4">
+          <div class="text-base font-medium text-black pb-2">Product</div>
+          <a href="/">Download</a>
+          <a href="/">Pricing</a>
+          <a href="/">Locations</a>
+          <a href="/">Server</a>
+          <a href="/">Countries</a>
+          <a href="/">Blog</a>
+        </div>
+        <div class="flex flex-col gap-4">
+          <div class="text-base font-medium text-black pb-2">Engage</div>
+          <a href="/">LaslesVPN ?</a>
+          <a href="/">FAQ</a>
+          <a href="/">Tutorials</a>
+          <a href="/">About Us</a>
+          <a href="/">Privacy Policy</a>
+          <a href="/">Terms of Service</a>
+        </div>
+        <div class="flex flex-col gap-4">
+          <div class="text-base font-medium text-black pb-2">Earn Money</div>
+          <a href="/">Affiliate</a>
+          <a href="/">Become a Partner</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

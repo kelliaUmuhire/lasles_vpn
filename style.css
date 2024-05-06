@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .red-btn {
+    @apply bg-red-500 text-white text-sm shadow-xl shadow-red-200;
+  }
+  .select-btn {
+    @apply border-2 border-red-500 transition ease-in-out delay-100 hover:red-btn px-4 w-full mt-4 
+    py-2 font-bold text-red-500 rounded-full text-sm;
+  }
+}
